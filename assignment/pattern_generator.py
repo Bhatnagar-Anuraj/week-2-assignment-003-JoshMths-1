@@ -22,6 +22,7 @@ def generate_pattern():
     # Loop that creates the pattern by using the amount of Rows and amount of Columns
     for row in range(num_rows):
         for col in range(num_cols):
+            # Creates the variables where the object will move to
             x_position = col*spacing
             z_position = row*spacing
             # If statement that picks that if the row number is even it instead generates a sphere
